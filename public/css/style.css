@@ -41,13 +41,12 @@ p {
 .home {
     padding-left: 6%;
     padding-right: 0;
-    padding-top: 60px;
 }
 .car {
     width: 100%;
     min-width: 460px;
     right: 0;
-    /* min-width: 600px; */
+    padding-top: 60px;
 }
 
 /* TAMPILAN OUR SERVICE */
