@@ -65,10 +65,10 @@ li {
 }
 
 /* TAMPILAN TESTIMONI */
-.carousel-inner {
-    margin-left: -24%;
-    display: flex;
-    justify-content: center;
+.profil {
+    width: 70px !important;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
 /* TAMPILAN BANNER */
