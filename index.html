@@ -23,7 +23,7 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg blue-1">
-      <div class="container-fluid blue-1">
+      <div class="container-fluid blue-1 mx-5">
         <a href="#" style="margin-left: 5%"
           ><img class="logo-bawah" src="public\img\logo.png" alt=""
         /></a>
@@ -39,7 +39,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse mx-5" id="navbarSupportedContent">
           <div class="navbar-nav ms-auto text-center blue-1">
             <a class="nav-link mx-2 text-dark" href="#service">Our Service</a>
             <a class="nav-link mx-2 text-dark" href="#why">Why Us</a>
@@ -52,14 +52,14 @@
         </div>
       </div>
     </nav>
+    <!-- End Navbar -->
     <!-- Tampilan Home -->
     <main>
       <div class="container-fluid home blue-1">
         <div class="row blue-1">
-          <div class="col m-auto pt-5">
-            <!-- p-5 padding -->
+          <div class="col m-auto pt-5 mx-4">
             <h1>Sewa & Rental Mobil Terbaik di kawasan Karawang</h1>
-            <p>
+            <p style="max-width: 468px;"> 
               Selamat datang di Binar Car Rental. Kami menyediakan mobil
               kualitas terbaik dengan harga terjangkau. Selalu siap melayani
               kebutuhanmu untuk sewa mobil selama 24 jam.
@@ -73,6 +73,7 @@
           </div>
         </div>
       </div>
+      <!-- End Home -->
       <!-- Tampilan Our Service -->
       <div class="service pt-5" id="service">
         <div class="row my-2">
@@ -129,6 +130,7 @@
           </div>
         </div>
       </div>
+      <!-- End Our Service -->
       <!-- Tampilan Why Us -->
       <div class="why pt-5 pb-5" id="why">
         <div class="container my-3">
@@ -206,7 +208,8 @@
           </div>
         </div>
       </div>
-      <!-- Tampilan Testimoni Carousel -->
+      <!-- End Why Us -->
+      <!-- Tampilan Testimonial -->
       <div class="testimonial pt-5" id="testimonial">
         <h2 class="text-center my-2">Testimonial</h2>
         <p class="text-center my-3">
@@ -306,10 +309,11 @@
           </div>
         </div>
       </div>
+      <!-- End Testimonial -->
       <!-- Tampilan Banner -->
       <div class="container banner blue-4 text-center text-white p-5">
         <h1 class="mb-4">Sewa Mobil di Karawang Sekarang</h1>
-        <p class="banner-text mb-3">
+        <p class="banner-text mb-5">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
@@ -317,14 +321,15 @@
           >Mulai Sewa Mobil</a
         >
       </div>
+      <!-- End Banner -->
       <!-- Tampilan FAQ -->
       <div class="container faq pt-5 pb-5" id="faq" style="margin-top: 10%">
         <div class="row my-3">
-          <div class="col">
+          <div class="col-lg-5">
             <h2>Frequently Asked Question</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
           </div>
-          <div class="col">
+          <div class="col-lg-7">
             <div class="accordion" id="accordionExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
@@ -475,12 +480,13 @@
           </div>
         </div>
       </div>
+      <!-- End FAQ -->
     </main>
     <!-- Tampilan Footer -->
     <footer>
       <div class="container footer pt-5">
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-4">
             <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
             <p>binarcarrental@gmail.com</p>
             <p>081-233-334-808</p>
@@ -509,7 +515,7 @@
               ><img src="public\img\icon_twitch.png" class="sosmed" alt=""
             /></a>
           </div>
-          <div class="col-lg-2">
+          <div class="col-lg-3">
             <p>Copyright Binar 2022</p>
             <a href=""
               ><img class="logo-bawah" src="public\img\logo.png" alt=""
@@ -518,6 +524,7 @@
         </div>
       </div>
 
+      <!-- Script -->
       <script src="public/OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.min.js"></script>
       <script src="public/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
       <script>
@@ -528,10 +535,9 @@
           dots: false,
           center: true,
           navText: [
-            "<img src='public/img/Left button.png' style='width: 23px'>",
-            "<img src='public/img/Right button.png' style='width: 23px'>",
+            "<img src='public/img/Left button.png' style='width: 32px; margin-right: 10px;'>",
+            "<img src='public/img/Right button.png' style='width: 32px'>",
           ],
-          // berapa banyak item yg tampil
           responsive: {
             0: {
               items: 1,
@@ -545,6 +551,8 @@
           },
         });
       </script>
+      <!-- End Script -->
     </footer>
+    <!-- End Footer -->
   </body>
 </html>
